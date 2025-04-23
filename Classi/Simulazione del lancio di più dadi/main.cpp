@@ -87,5 +87,5 @@ int main(){
         cin >> seed;
         
         b1.agita(seed);
-        cout << "Lancio i dadi, punteggio=" << b1.lancio(2) <<endl;
+        cout << "Lancio i dadi, punteggio=" << b1.lancio() <<endl;
 }
